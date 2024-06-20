@@ -88,7 +88,7 @@ async function verify(
        * 3. get hash from db, and check if it is pending in eth
        */
       console.log("Current Verifier Version:" + vid);
-      let tx = bridge.verify(command, proof, vid, rid);
+      let tx = bridge.verify(command, proof, rid);
       let r = await tx.when("Verify", "transactionHash", (hash: string) => {
         console.log("Get transactionHash", hash);
         txhash = hash;
