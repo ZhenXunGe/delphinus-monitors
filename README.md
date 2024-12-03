@@ -5,7 +5,7 @@ Delphinus monitors are served as relay systems for Delphinus Cross Chain solutio
 ## Install supervisord:
 [Supervisor](https://github.com/Supervisor/supervisor) is a client/server system that allows its users to monitor and control a number of processes on UNIX-like operating systems. We use supervisor to monitor process.
 
-The server piece of supervisor is named **supervisord**.  It is responsible for starting child programs at its own invocation, responding to commands from clients, restarting crashed or exited subprocesseses, logging its subprocess stdout and stderr output, and generating and handling “events” corresponding to points in subprocess lifetimes.
+The server piece of supervisor is named **supervisord**.  It is responsible for starting child programs at its own invocation, responding to commands from clients, restarting crashed or exited subprocesses, logging its subprocess stdout and stderr output, and generating and handling “events” corresponding to points in subprocess lifetimes.
 
 Here we take Ubuntu for example, you can get more info [here](http://supervisord.org/).
 
